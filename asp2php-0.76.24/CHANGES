@@ -1,0 +1,29 @@
+
+June 23, 2005 - 0.76.24
+
+- I was using system() calls to mkdir -p to make directories for a couple
+of reasons 1) cause it would automatically create all dirs that didn't exist
+and 2) cause it set up file permissions the way the system would want it.
+this fails miserably on DOS (aka, Microsoft Windows) so I switched it now
+to mkdir().  I'd still rather use mkdir -p, but owell.  Anyway, this should
+fix problems with people using DOS (aka Microsoft Windows).
+
+September 8, 2004 - 0.76.23
+
+- Fixed a bug with &'s from version 0.76.22
+
+September 6, 2004 - 0.76.22
+
+- mysql.c was modified by Tursi to add a semicolon after mysql_query($arg)
+- rnd() with a parameter added an extra ).  This is now fixed.
+- date function changes
+- added new command line switch for changing .asp text in response.write to .php
+- hex literals are fixed
+
+
+
+Jan 11, 2004
+
+Added FRAME to list of tags to change links from .asp to .php
+
+

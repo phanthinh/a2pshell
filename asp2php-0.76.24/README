@@ -1,0 +1,28 @@
+
+asp2php
+By Michael Kohn <mike@mikekohn.net> http://www.mikekohn.net/
+Copyright 1998-2005 - Michael Kohn
+This program now falls under the GPL License
+
+#############################################################
+
+TO COMPILE TYPE AT THE UNIX PROMPT:
+
+make
+make install
+
+#############################################################
+
+PLEASE SEE THE WEB PAGE FOR DOCUMENTATION:
+
+http://asp2php.mikekohn.net/
+
+This program is given with no warranty.  Use at your own
+risk.
+
+------------------------------------------------------------------
+
+Michael Kohn
+
+
+
